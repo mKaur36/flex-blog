@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    font-size: 2rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.try{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    background: aqua;
+    
+    width: 10px 8px;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+.global-msg{
+    background: darkblue;
+    color: white;
+    line-height: 32px;
+    
+}
+.gbl-content{
+    display: flex;
+    justify-content: space-between;
+}
+/*top nav section*/
+.nav-bar{
+    background-color: rgb(33, 101, 197);
+    color: whitesmoke;
+    font-size: 30px;
+}
+.top-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display:flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 16px;
+}
+/* hero section*/
+.hero{
+    background: url(img/Heroimage.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.hero-content{
+    background-color: rgb(188, 102, 32);
+    width: 650px;
+    color: azure;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.main{
+    display:flex;
+    margin-top: 32px;
+}
+.main-content{
+    background: burlywood;
+    width: 66%;
+    margin-right: 1rem;
+}
+.side-links{
+    width: 34%;
+    }
+    
+    
+    article{
+        display: flex;
+        border: 3px solid lightgrey;
+        margin-top: 1rem;
+        padding:1rem;
+        border-radius: 5px;
+    }
+    .art-img{
+        width: 200px;
+        margin-right: bolder;
+        margin-right: 1rem;
+    }
+    .title{
+        font-size: 1.5rem;
+        font-weight: bolder;
+
+    }
+    .read-by-country,.read-by-date{
+        margin-top: 3.5rem;
+    
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    .read-by-country h3{
+        text-align: center;
+    }
+    .read-by-date h3{
+        text-align: center;
+    
+ }
+    .read-by-country{background-color: antiquewhite;}
+    .read-by-date{
+        background: olive;
+    }
+
+
+    /*recc section*/
+    .recc{
+        background: lightcoral;
+        margin-top:2rem;
+        padding: 20px 0;
+
+    }
+    .card-list{
+        display: flex;
+        justify-content:space-between ;
+        
+    }
+    .card{
+        
+        margin: 10px 10px;
+        background: grey;
+        border-radius: 5px;
+        padding-bottom: 1 rem;
+        box-shadow: 5px 5px 10px 5px black;
+
+    }
+    .card-img{
+        border-radius: 5px 5px 0 0;
+    }
+    .btn-card{
+        width: 200px;
+    }
+ /*subscription section*/
+ .subs{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+ }
+    .footer{
+        background:rgb(33, 101, 197);
+        color: wheat;
+        padding: 30px;
+        text-align: center;
+        margin-top: 32px;
+    }
+   /*media query
+   @media(max-width: 600px) {
+
+    .global-msg{
+        background: brown;
+        color: black;
+        line-height: 32px;
+        font-size: 2rem;
+        
+    }   
+   }*/
+   @media(max-width: 900px) {
+    .card-list{
+        display: flex;
+        flex-direction: column;
+    }
+    /*.main{
+        display:flex;
+        flex-direction: column;
+    }
+    .main-content{
+        margin-right: 0;
+        width: 100%;
+    }
+    article{
+        display: flex;
+       flex-direction: column;
+      }
+      .art-img{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .side-links{
+        width: 100%;
+        display:flex;
+        justify-content: space-between
+        }
+        .side-links > div{
+            width: 40%
+        }
+        .card-list,
+        .card-list > div{
+            display: flex;
+            flex-direction: column;
+           
+            
+        } */
+
+
+
+   }
+   @media(max-width: 600px) {
+    .main{
+        display:flex;
+        flex-direction: column;
+    }
+    .main-content{
+        margin-right: 0;
+        width: 100%;
+    }
+    article{
+        display: flex;
+       flex-direction: column;
+      }
+      .art-img{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .side-links{
+        width: 100%;
+        display:flex;
+        justify-content: space-between
+        }
+        .side-links > div{
+            width: 40%
+        }
+        .card-list,
+        .card-list > div{
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        }
+        
+
+        
